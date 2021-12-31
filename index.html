@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online calculator</title>
+</head>
+<body>
+    <h1>ONLINE CALCULATOR</h1>
+    <div  id="calc">
+        <div>
+        <label>First Number</label><input type="number" name="fname" id="first">
+        </div>
+        
+        <div>
+            
+                <label>Second Number</label><input type="number" name="sname" id="second">
+            </div>
+        
+            <div>
+                <label>Operation</label>
+                <select id="operation">
+                <option value="+">Addition</option>
+                <option value="-">Substraction</option>
+                <option value="/">Division</option>
+                <option value="*">Multiplication</option>
+                </select>
+            </div>
+            <div id="co">
+            <p><button onclick="calculate()">Calculate</button></p>
+            </div>
+             
+            
+    </div>
+
+    <div id="ca">
+        <p id="cu">This the result</p>
+        <p id="answer"></p>
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

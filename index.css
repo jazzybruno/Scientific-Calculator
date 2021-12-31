@@ -1,0 +1,84 @@
+#calc{
+    margin: auto;
+    width: 300px;
+    background-color: aliceblue;
+    padding-bottom: 90px;
+    padding-top: 110px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 50px;
+
+}
+
+#ca{
+    margin: auto;
+    width: 300px;
+    background-color: aliceblue;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 25px;  
+    margin-top: 70px;
+}
+
+h1{
+text-align: center;
+color: aqua;
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    font-size: 25px;
+}
+
+input{
+    border-radius:10px ;
+    padding-left:15px ;
+    padding-right:15px ;
+    padding-top: 5px;
+    padding-bottom:5px ;
+}
+#operation{
+    border-radius:10px ;
+    padding-left:15px ;
+    padding-right:15px ;
+    padding-top: 5px;
+    padding-bottom:5px    
+}
+
+option{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+
+}
+
+button{
+    border-radius:10px ;
+    padding-left:15px ;
+    padding-right:15px ;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#answer{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cu{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url("calc.jpg");
+}
+
+
+
