@@ -11,26 +11,23 @@
     <h1>ONLINE CALCULATOR</h1>
     <div  id="calc">
         <div>
-        <label>First Number</label><input type="number" name="fname" id="first">
+        <label>Number</label><input type="number" name="name" id="first">
         </div>
         
-        <div>
-            
-                <label>Second Number</label><input type="number" name="sname" id="second">
-            </div>
+        
         
             <div>
-                <label>Operation</label>
+                <label>operation</label>
                 <select id="operation">
-                <option value="+">Addition</option>
-                <option value="-">Substraction</option>
-                <option value="/">Division</option>
-                <option value="*">Multiplication</option>
+                <option value="sin">Sine</option>
+                <option value="cos">Cosine</option>
+                <option value="tan">Tangent</option>
+                <option value="sq">Square</option>
+                <option value="sqrt">Square root</option>
+                <option value="ln">ln</option>
                 </select>
             </div>
-        
             <div id="co">
-               
             <p><button onclick="calculate()">Calculate</button></p>
             </div>
              
@@ -40,15 +37,8 @@
     <div id="ca">
         <p id="cu">This the result</p>
         <p id="answer"></p>
-        
 
     </div>
-    <div id="ca">
-        <p><a href="ca.html" title="ca">
-            <button>Other Operations</button></p>
-    </div>
-    <script src="calc.js"></script>
-
-
+    <script src="ca.js"></script>
 </body>
 </html>
