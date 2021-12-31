@@ -2,11 +2,11 @@
     margin: auto;
     width: 300px;
     background-color: aliceblue;
-    padding-bottom: 90px;
-    padding-top: 110px;
-    padding-right: 80px;
-    padding-left: 80px;
-    border-radius: 50px;
+    padding-bottom: 70px;
+    padding-top: 90px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 40px;
 
 }
 
@@ -14,11 +14,11 @@
     margin: auto;
     width: 300px;
     background-color: aliceblue;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    border-radius: 25px;  
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;  
     margin-top: 70px;
 }
 

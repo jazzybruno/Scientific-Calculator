@@ -14,13 +14,15 @@ function square(num1){
     return num1 * num1;
 }
 
-function square(num1){
+function root(num1){
     return Math.sqrt(num1);
 }
 
 function LN(num1){
     return Math.log(num1);
 }
+
+
 
 function calculate(){
 
@@ -54,6 +56,8 @@ function calculate(){
                               result = LN(cat)
                               break;
 
+                              
+                                  
                               default :
                               result - "Invalid input"
                               break;
